@@ -1,0 +1,237 @@
+*{
+        margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Courier New', Courier, monospace ;
+    background-color: #000000;
+}
+
+/* navbar-section */
+.navbar-bg-img{
+    background-image: url("/home/soham/my work/images/balck-and-white.jpg");
+    min-height: 900px;
+    max-width: 100%;
+}
+
+.background {
+    background-color: #000000;
+    opacity: 0.6;
+}
+
+.navbar-section {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.navbar-menu{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.navbar-menu a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.navbar-menu-1 {
+ margin-bottom  : 20px;
+}
+
+.navbar-menu-2 :first-child{
+ text-decoration: underline;
+ text-decoration-color:rgb(255, 200, 3);
+ text-decoration-thickness:5px ;
+ text-underline-offset: 10px;
+}
+.navbar-logo{
+    float: right;
+}
+
+/* calendar-section */
+.calendar-section {
+    mix-blend-mode:screen;
+    max-width: 1500px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.calendar-section h1 {
+    font-size: 80px;
+    margin-bottom: 15px;
+}
+
+.calendar-section h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+
+.calendar-text {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.cal-btn {
+    background-color:rgb(255, 200, 3);
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 8px 70px;
+    margin-bottom: 60px;
+}
+
+/* content-section */
+.content-section {
+    max-width: 1500px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.content-text {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+ .content-text h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.content-text p {
+    font-size: 25px;
+    margin-bottom: 40px;
+
+}
+/* Academy-Domains-section*/
+.ad-domian-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ad-title {
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.academy-domain-section {
+    max-width: 1500px;
+    margin: 100px auto;
+}
+
+.ad-desc {
+    color: aliceblue;
+}
+.ad-desc h1{
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+.ad-desc p{
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+
+.ad-btn {
+    background-color:rgb(255, 200, 3);
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 8px 30px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+}
+/* .material-icons  {
+    mix-blend-mode:screen;
+    color: #000000 !important ;
+} */
+
+/* service-section */
+.service-section {
+    max-width: 1500px;
+    margin: 100px auto;
+    color: aliceblue;
+}
+.service-section h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.service-section p{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.service-section ul li{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;    
+}
+
+/* Our Partners */
+#ourpartner-bg {
+    background-color: aliceblue !important;
+padding: 50px 0;
+}
+.our-partner-section {
+    max-width: 1500px;
+    margin: 100px auto;
+}
+.our-partner-section h1 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+.our-partner-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+/* subscribe-section */
+.subscribe-section{
+    color: aliceblue;
+    text-align: center;
+    margin: 50px;
+    margin: 200px;
+}
+.subscribe-section input{
+    font-size: 25px;
+    margin: 20px;
+}
+.subscribe-btn{
+    background-color:rgb(255, 200, 3);
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 8px 30px;
+}
+
+
+.footer-section{
+    max-width: 1500px;
+    margin: 100px auto;
+    color: aliceblue;
+}
+
+.footer-details-1 {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 50px;
+}
+ .footer-contect i{
+    color: aliceblue;
+    width: 50px;
+    height: 50px;
+ }
