@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace ;
+}
+/* page-alignment */
+.page-alignment{
+    max-width: 80%;
+    margin: 0 auto;
+}
+/* mediaquary for width */
+@media screen and (300px <= width <= 425px){
+    .consultation-section h1 {
+        font-size: 35px;
+}
+}
+/* mediaquary for width */
+@media screen and (100px <= width <= 300px){
+    .consultation-section h1 {
+        font-size: 20px;
+}
+}
+/* mediaquary for hamburger menu */
+@media screen and (max-width: 920px) {
+    .navbar-menu.responsive a {
+        display: block;
+    }
+    .navbar-menu a {display: none;}
+    .navbar-section-responsive {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    .navbar-menu a.icon {
+      float: left;
+      display: block;
+      margin-left: 10px;
+    }
+    .navbar-logo {
+        max-width: 120px;
+        max-height: 100px;
+    }
+    .navbar-menu-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-menu-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* navbar-section */
+.navbar-section {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.navbar-logo{
+    max-width: 80%;
+    height: 70%;
+}
+.navbar-menu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.navbar-menu a {
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+}
+.navbar-menu-1 {
+    margin-bottom  : 20px;
+}
+.navbar-menu a:hover:not(.icon){
+    text-decoration: underline;
+    text-decoration-color:rgb(255, 200, 3);
+    text-decoration-thickness:5px ;
+    text-underline-offset: 10px;
+}
+.navbar-menu-2 .active{
+    text-decoration: underline;
+    text-decoration-color:rgb(255, 200, 3);
+    text-decoration-thickness:5px ;
+    text-underline-offset: 10px;
+}
+.icon {
+    font-size: 30px;
+    display: none;
+}
+/* Consultation-section */
+.consultation-section h1 {
+    font-size: 52px;
+    margin: 50px 0;
+    color: #3c3c3c;
+}
+.consultation-section p {
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+/* form section */
+.form-section{
+    margin-bottom: 100px;
+}
+.form-label{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+/* for all label */
+label{
+    color: #3c3c3c;
+    margin-bottom: 50px 0;
+    box-sizing: border-box;
+}
+/* for all input type text */
+input[type=text]{
+    width: 100%;
+    border-radius: 25px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    padding: 20px 30px;
+    font-size: 25px;
+}
+/* for all checkbox  */
+input[type="checkbox"]{
+    font-size: 25px;
+    accent-color: rgb(255, 200, 3)
+}
+/* for all textarea */
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    color: #cccccc;
+    border: 2px solid #cccccc;
+    font-size: 25px;
+    border-radius: 25px;
+}
+/* for button */
+.cal-btn {
+    background-color:rgb(255, 200, 3);
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 8px 70px;
+    margin-bottom: 40px;
+}
+/* footer-section */
+.footer-section{
+    color: aliceblue;
+    background-color: black;
+    padding-top: 100px;
+}
+.footer-details-1 {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 30px;
+}
+.footer-contect i{
+    color: aliceblue;
+    width: 50px;
+    height: 50px;
+}
+ .footer-column{
+    margin-bottom: 30px;
+}
+.footer-contect-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+ /* Terms-Conditions-section */
+.Terms-Conditions-section{
+    color: aliceblue;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    margin-top:40px;
+}   
+.Terms-Conditions-section p{
+    margin-right:40px;
+    line-height: 50px;
+}
