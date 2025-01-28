@@ -1,0 +1,34 @@
+
+body{
+    font-family:'Courier New', Courier, monospace ;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* All sections alignment */
+.section-alignment{
+    max-width: 100%;
+    margin: 0 auto;
+}
+/* navbar-section */
+.navbar-bg-img{
+    min-height: 800px ;
+    min-width: 450px;
+    background-image: url("../images/balck-and-white.jpg");
+}
+.background {
+    background-color: #000000;
+    opacity: 0.6;
+}
+.navbar-section {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.content-img{
+    display: block;
+    margin: auto;
+    width: 10%;
+}
